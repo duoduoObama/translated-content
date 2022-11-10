@@ -119,7 +119,7 @@ firstDiv.childNodes.forEach(function( divChild ){
 });
 ```
 
-不扩展 DOM 对象原型的解决办法：
+<p id="Example">不扩展 DOM 对象原型的解决办法：</p>
 
 ```js
 var forEach = Array.prototype.forEach;
